@@ -1,8 +1,8 @@
-# An open-source machine-learning approach for obtaining high quality quantitative wood anatomy data in _E. grandis_ and _P. radiata_. 
+# An open-source machine-learning approach for obtaining high quality quantitative wood anatomy data from hard- and softwood trees.
 
 ## Purpose of repository 
 
-This repository represents a method to analyse wood microsections of _E. grandis_ and _P. radiata_ using the bioimage analysis software QuPath (v0.4.3). Consequently, the relevant code for generating and exporting cell detections in QuPath are included. The automated quantitative wood anatomy (QWA) data produced in QuPath can be assessed for accuracy/reproducibility via the code available in the R scripts. 
+This repository represents a method to analyse wood microsections of _E. grandis_ and _P. radiata_ using the bioimage analysis software QuPath (v0.4.4). Consequently, the relevant code for generating and exporting cell detections in QuPath are included. The automated quantitative wood anatomy (QWA) data produced in QuPath can be assessed for accuracy/reproducibility via the code available in the R scripts. 
 
 ## Contents (code)
 
@@ -18,7 +18,7 @@ This repository represents a method to analyse wood microsections of _E. grandis
 
 ### Positive cell detection in QuPath
 
-1. Download QuPath (v0.4.3) quantitative pathology & bioimage analysis software (Bankhead et al., 2017) from https://qupath.github.io. 
+1. Download QuPath (v0.4.4) quantitative pathology & bioimage analysis software (Bankhead et al., 2017) from https://qupath.github.io. 
 2.	Select the “Create project” icon and select the relevant directory for which a QuPath project will be created.
    NOTE: QuPath projects can only be created in an empty directory. 
 4.	Select the “Add images” icon and change the “Set image type” to “Other”. Leave all the other setting as default. 
