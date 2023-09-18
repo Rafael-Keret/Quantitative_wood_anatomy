@@ -1,7 +1,7 @@
 
 # R code for data analysis and visualization of quantitative wood anatomy data generated in QuPath for Pinus radiata
- # Paper title: "An open-source machine-learning approach for obtaining high quality quantitative wood anatomy data in E. grandis and P. radiata."
- # Journal: Applications in Plant Sciences
+ # Paper title: "An open-source machine-learning approach for obtaining high quality quantitative wood anatomy data from hard- and softwood trees."
+ # Journal: Plant Science
  # Author: Rafael Keret
 
 # IMPORTING DATA
@@ -12,8 +12,8 @@ library(tidyverse)
 
 # (2) Import QuPath raw (.csv) data file and indicate comma (",") delimiter to separate the data into columns
 
-Auto_data <- read.table("./Data/Appendix_S4.csv", sep = ",", skip = 3, header = T)
-Manual_data <- read.table("./Data/Appendix_S5.csv", sep = ",", skip = 3, header = T)
+Auto_data <- read.table("./Data/Table_S3.csv", sep = ",", skip = 2, header = T)
+Manual_data <- read.table("./Data/Table_S4.csv", sep = ",", skip = 2, header = T)
 
 Auto_data$Class <- gsub(": Positive", "", Auto_data$Class)
 Manual_data$Class <- gsub(": Positive", "", Manual_data$Class)
