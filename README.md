@@ -1,4 +1,4 @@
-# An open-source machine-learning approach for obtaining high quality quantitative wood anatomy data from hard- and softwood trees.
+# An open-source machine-learning approach for obtaining high-quality quantitative wood anatomy data from _E. grandis_ and _P. radiata_ xylem.
 
 ## Purpose of repository 
 
