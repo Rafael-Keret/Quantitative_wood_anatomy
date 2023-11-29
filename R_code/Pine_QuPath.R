@@ -1,7 +1,6 @@
 
 # R code for data analysis and visualization of quantitative wood anatomy data generated in QuPath for Pinus radiata
- # Paper title: "An open-source machine-learning approach for obtaining high quality quantitative wood anatomy data from hard- and softwood trees."
- # Journal: Plant Science
+ # Paper title: "An open-source machine-learning approach for obtaining high-quality quantitative wood anatomy data from E. grandis and P. radiata xylem"
  # Author: Rafael Keret
 
 # IMPORTING DATA
