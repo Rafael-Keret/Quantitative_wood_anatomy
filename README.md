@@ -12,7 +12,19 @@ This repository represents a method to analyse wood microsections of _E. grandis
 4. Classifier2.json
 5. Exporting_script.groovy
 6. Eucalyptus_QuPath.R
-7. Pine_QuPath.R 
+7. Pine_QuPath.R
+
+## Access to microsection scans for QuPath methods development
+
+### Training images
+
+_Eucalyptus grandis_ - https://doi.org/10.5281/zenodo.8006449
+_Pinus radiata_ - https://doi.org/10.5281/zenodo.8006687
+
+### Testing images
+
+_Eucalyptus grandis_ - https://doi.org/10.5281/zenodo.8006637
+_Pinus radiata_ - https://doi.org/10.5281/zenodo.8006705
 
 ## Application of the QuPath groovy scripts and classifiers to generate QWA data
 
