@@ -36,7 +36,7 @@ _Pinus radiata_ - https://doi.org/10.5281/zenodo.8006705
 4.	Select the “Add images” icon and change the “Set image type” to “Other”. Leave all the other setting as default. 
 5.	Press “Choose files” and “Import” the relevant images. 
 6.	Select “Automate” from the toolbar, and from the drop-down menu choose “Show script editor”. 
-7.	In “Script Editor” navigate to “File” and select “Open” from the drop-down menu. Navigate to and select either PCDS1.groovy or PCDS2.groovy. 
+7.	In “Script Editor” navigate to “File” and select “Open” from the drop-down menu. Navigate to and select either PCDS1.groovy (_E. grandis_) or PCDS2.groovy (_P. radiata_). 
     NOTE: This script is the positive cell detection and subsetting script. Make sure that the file path for the classifier (Classifier1.json or Classifier2.json) is set in the code at line 88.  
 8.	Navigate to “Run”, select “Run for project” and choose all the relevant images to be analyzed.
     NOTE: The cell detection and subsetting parameters have been optimized for _Eucalyptus grandis_ and _Pinus radiata_ stem sections.  
